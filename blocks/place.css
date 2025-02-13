@@ -14,7 +14,7 @@
     column-gap: 40px;
     row-gap: 48px;
     margin: 32px auto 0;
-  }
+  }  
   
   .place__title {
     width: 100%;
@@ -31,8 +31,8 @@
     width: 100%;
     max-width: 485px;
     height: 490px;
-    grid-area: image;
-  }
+    object-fit: cover;
+  }  
   
   .place__button {
     width: 100%;
@@ -162,9 +162,8 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 0;
-      margin: 0;
     }
+  }  
   
     .place__title {
       max-width: 288px;
@@ -207,4 +206,5 @@
       line-height: 1.625rem;
       margin: 0 auto 25px 0;
     }
-  }
+
+    
